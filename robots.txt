@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap:   https://mubashirali-studio.github.io/SadafEjaz/sitemap.xml
