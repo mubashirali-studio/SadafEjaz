@@ -1,0 +1,2202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadaf Ejaz - High-Authority Guest Post & Backlink Services | SEO Expert</title>
+    <meta name="description" content="Professional guest post and backlink services from 1000+ high-DA websites. Boost your SEO rankings with manual outreach by Sadaf Ejaz, trusted outreach expert.">
+    <meta name="keywords" content="high DA guest post service, backlinks provider, manual outreach for backlinks, get backlinks for SEO, safe white hat link building, DR 50+ websites, real traffic blogs for SEO">
+    <meta name="author" content="Sadaf Ejaz">
+    <meta property="og:title" content="Sadaf Ejaz - High-Authority Guest Post & Backlink Services">
+    <meta property="og:description" content="Boost your SEO with premium guest posts and backlinks from 1000+ verified high-authority websites.">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://sadafejaz.com">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        /* Enhanced 3D Cinematic Intro Styles */
+        .cinematic-intro {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(ellipse at center, #001122 0%, #000000 100%);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        
+        #three-canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .intro-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+            pointer-events: none;
+        }
+        
+        .intro-content {
+            text-align: center;
+            color: white;
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        
+        .intro-title {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #60a5fa, #34d399, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 0 40px rgba(96, 165, 250, 0.5);
+            animation: titleGlow 3s ease-in-out infinite alternate;
+        }
+        
+        .intro-subtitle {
+            font-size: 1.5rem;
+            color: #e2e8f0;
+            margin-bottom: 3rem;
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+        }
+        
+        .loading-section {
+            opacity: 0;
+            transform: translateY(30px);
+            margin-bottom: 2rem;
+        }
+        
+        .loading-text {
+            color: #94a3b8;
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            letter-spacing: 1px;
+        }
+        
+        .loading-bar-container {
+            width: 400px;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            margin: 0 auto;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(96, 165, 250, 0.3);
+        }
+        
+        .loading-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #3b82f6, #10b981, #8b5cf6, #f59e0b);
+            background-size: 400% 100%;
+            border-radius: 4px;
+            width: 0%;
+            animation: loadingProgress 3s ease-out forwards, shimmerEffect 2s infinite;
+            box-shadow: 0 0 15px rgba(59, 130, 246, 0.6);
+        }
+        
+        .loading-percentage {
+            color: #60a5fa;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-top: 1rem;
+            text-shadow: 0 0 10px rgba(96, 165, 250, 0.5);
+        }
+        
+        .get-started-btn {
+            background: linear-gradient(135deg, #3b82f6, #10b981);
+            color: white;
+            padding: 18px 45px;
+            border-radius: 50px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+            opacity: 0;
+            transform: scale(0.8) translateY(20px);
+            box-shadow: 0 15px 35px rgba(59, 130, 246, 0.4);
+            transition: all 0.3s ease;
+            pointer-events: none;
+            letter-spacing: 1px;
+        }
+        
+        .get-started-btn.show {
+            opacity: 1;
+            transform: scale(1) translateY(0);
+            pointer-events: all;
+            animation: buttonPulse 2s ease-in-out infinite;
+        }
+        
+        .get-started-btn:hover {
+            transform: scale(1.05) translateY(-2px);
+            box-shadow: 0 20px 45px rgba(59, 130, 246, 0.6);
+        }
+        
+        @keyframes titleGlow {
+            0% { text-shadow: 0 0 40px rgba(96, 165, 250, 0.5); }
+            100% { text-shadow: 0 0 60px rgba(96, 165, 250, 0.8), 0 0 80px rgba(52, 211, 153, 0.4); }
+        }
+        
+        @keyframes loadingProgress {
+            0% { width: 0%; }
+            100% { width: 100%; }
+        }
+        
+        @keyframes shimmerEffect {
+            0% { background-position: -400% 0; }
+            100% { background-position: 400% 0; }
+        }
+        
+        @keyframes buttonPulse {
+            0%, 100% { box-shadow: 0 15px 35px rgba(59, 130, 246, 0.4); }
+            50% { box-shadow: 0 20px 45px rgba(59, 130, 246, 0.6), 0 0 30px rgba(16, 185, 129, 0.3); }
+        }
+        
+        .intro-content.phase-1 {
+            animation: fadeInUp 2s ease-out 1s forwards;
+        }
+        
+        .loading-section.phase-2 {
+            animation: fadeInUp 1s ease-out 6s forwards;
+        }
+        
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .main-content {
+            opacity: 0;
+            display: none;
+        }
+        
+        .main-content.show {
+            opacity: 1;
+            display: block;
+            animation: fadeInMain 1.5s ease-in-out forwards;
+        }
+        
+        @keyframes fadeInMain {
+            0% { opacity: 0; transform: translateY(30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #3b82f6 100%);
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+        }
+        
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        .floating-delayed {
+            animation: float 6s ease-in-out infinite 2s;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        
+        .slide-up {
+            animation: slideUp 0.8s ease-out;
+        }
+        
+        .glow {
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes glow {
+            from { box-shadow: 0 0 20px rgba(59, 130, 246, 0.5); }
+            to { box-shadow: 0 0 30px rgba(59, 130, 246, 0.8); }
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(37, 99, 235, 0.4);
+        }
+        
+        .btn-success {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-success:hover {
+            background: linear-gradient(135deg, #059669 0%, #047857 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(16, 185, 129, 0.4);
+        }
+        
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        .service-icon {
+            transition: all 0.3s ease;
+        }
+        
+        .service-icon:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+        
+        .testimonial-card {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        }
+        
+        .stats-counter {
+            font-size: 3rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #3b82f6, #10b981);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .section-padding {
+            padding: 100px 0;
+        }
+        
+        /* Enhanced Mobile Menu Styles */
+        .mobile-menu-open {
+            overflow: hidden;
+        }
+        
+        #mobile-menu {
+            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        
+        .mobile-menu-link {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideInUp 0.5s ease-out forwards;
+            background: #1e40af !important;
+            color: white !important;
+            border: 2px solid #1e40af !important;
+            padding: 16px 24px !important;
+            margin: 8px 16px !important;
+            border-radius: 12px !important;
+            font-weight: 600 !important;
+            text-align: center !important;
+            transition: all 0.3s ease !important;
+            display: block !important;
+            text-decoration: none !important;
+        }
+        
+        .mobile-menu-link:hover {
+            background: #1d4ed8 !important;
+            transform: translateY(-2px) !important;
+            box-shadow: 0 8px 25px rgba(30, 64, 175, 0.3) !important;
+        }
+        
+        .mobile-menu-link.whatsapp-btn {
+            background: #10b981 !important;
+            border-color: #10b981 !important;
+        }
+        
+        .mobile-menu-link.whatsapp-btn:hover {
+            background: #059669 !important;
+            border-color: #059669 !important;
+        }
+        
+        .mobile-menu-link:nth-child(1) { animation-delay: 0.1s; }
+        .mobile-menu-link:nth-child(2) { animation-delay: 0.2s; }
+        .mobile-menu-link:nth-child(3) { animation-delay: 0.3s; }
+        .mobile-menu-link:nth-child(4) { animation-delay: 0.4s; }
+        .mobile-menu-link:nth-child(5) { animation-delay: 0.5s; }
+        
+        @keyframes slideInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Mobile menu close button */
+        .mobile-menu-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid white;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .mobile-menu-close:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: rotate(90deg);
+        }
+        
+        @media (max-width: 768px) {
+            .section-padding {
+                padding: 60px 0;
+            }
+            
+            .whatsapp-float {
+                width: 50px;
+                height: 50px;
+                bottom: 20px;
+                right: 20px;
+                font-size: 24px;
+            }
+            
+            body.mobile-menu-open {
+                overflow: hidden;
+            }
+            
+            .intro-title {
+                font-size: 2.5rem;
+            }
+            
+            .loading-bar-container {
+                width: 300px;
+            }
+        }
+        
+        .spreadsheet-container {
+            height: 600px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .spreadsheet-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Sadaf Ejaz - Guest Post & Backlink Services",
+        "description": "Professional guest post and backlink services from 1000+ high-authority websites",
+        "provider": {
+            "@type": "Person",
+            "name": "Sadaf Ejaz",
+            "jobTitle": "SEO Outreach Expert"
+        },
+        "serviceType": "SEO Services",
+        "areaServed": "Worldwide",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "SEO Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Guest Post Service"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "High-Authority Backlinks"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- Enhanced 3D Cinematic Intro -->
+    <div class="cinematic-intro" id="cinematicIntro">
+        <canvas id="three-canvas"></canvas>
+
+        <div class="intro-overlay">
+            <div class="intro-content phase-1">
+                <div class="intro-title font-poppins">Digital SEO Universe</div>
+                <div class="intro-subtitle">Experience the Future of Link Building</div>
+                
+                <!-- Loading section positioned below titles -->
+                <div class="loading-section phase-2">
+                    <div class="loading-text">Initializing SEO Experience...</div>
+                    <div class="loading-bar-container">
+                        <div class="loading-bar" id="loadingBar"></div>
+                    </div>
+                    <div class="loading-percentage" id="loadingPercentage">0%</div>
+                    <button class="get-started-btn" id="getStartedBtn">
+                        <i class="fas fa-rocket mr-2"></i>Enter SEO Universe
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content Wrapper -->
+    <div class="main-content">
+    <!-- Navigation -->
+    <nav class="bg-white/95 backdrop-blur-sm shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-blue-600 font-poppins">Sadaf Ejaz</h1>
+                    <span class="ml-2 text-sm text-gray-600">SEO Expert</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 transition-colors">About</a>
+                    <a href="#services" class="text-gray-700 hover:text-blue-600 transition-colors">Services</a>
+                    <a href="#websites" class="text-gray-700 hover:text-blue-600 transition-colors">Websites</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
+                    <a href="https://api.whatsapp.com/send?phone=447417428184&text=Hi%20Sadaf,%20I'm%20interested%20in%20your%20guest%20post%20and%20backlink%20services.%20Can%20you%20please%20share%20more%20details?" target="_blank" class="btn-success text-white px-6 py-2 rounded-full font-semibold">
+                        <i class="fab fa-whatsapp mr-2"></i>WhatsApp
+                    </a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-blue-600 z-50 relative p-2 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md">
+                        <div class="w-6 h-6 flex flex-col justify-center items-center">
+                            <span id="hamburger-line-1" class="block w-6 h-0.5 bg-current transform transition duration-300 ease-in-out"></span>
+                            <span id="hamburger-line-2" class="block w-6 h-0.5 bg-current transform transition duration-300 ease-in-out mt-1"></span>
+                            <span id="hamburger-line-3" class="block w-6 h-0.5 bg-current transform transition duration-300 ease-in-out mt-1"></span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Enhanced Mobile Menu Overlay -->
+            <div id="mobile-menu" class="fixed inset-0 transform translate-x-full transition-transform duration-500 ease-in-out z-40 md:hidden">
+                <div class="flex flex-col items-center justify-center h-full space-y-4 px-4 py-8">
+                    <div class="mobile-menu-close" onclick="toggleMobileMenu()">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Navigation Menu</h3>
+                        <p class="text-gray-600">Choose where you'd like to go</p>
+                    </div>
+                    
+                    <a href="#about" class="mobile-menu-link">
+                        <i class="fas fa-user mr-3"></i>About Sadaf
+                    </a>
+                    <a href="#services" class="mobile-menu-link">
+                        <i class="fas fa-cogs mr-3"></i>Our Services
+                    </a>
+                    <a href="#websites" class="mobile-menu-link">
+                        <i class="fas fa-globe mr-3"></i>Browse Websites
+                    </a>
+                    <a href="#contact" class="mobile-menu-link">
+                        <i class="fas fa-envelope mr-3"></i>Contact Us
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=447417428184&text=Hi%20Sadaf,%20I'm%20interested%20in%20your%20guest%20post%20and%20backlink%20services.%20Can%20you%20please%20share%20more%20details?" target="_blank" class="mobile-menu-link whatsapp-btn">
+                        <i class="fab fa-whatsapp mr-3"></i>WhatsApp Chat
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient pt-20 section-padding relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="floating absolute top-20 left-10 w-20 h-20 bg-blue-500 rounded-full"></div>
+            <div class="floating-delayed absolute top-40 right-20 w-16 h-16 bg-green-500 rounded-full"></div>
+            <div class="floating absolute bottom-20 left-1/4 w-12 h-12 bg-purple-500 rounded-full"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="fade-in">
+                    <h1 class="text-4xl lg:text-6xl font-bold text-white mb-6 font-poppins leading-tight">
+                        Boost Your Brand with 
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400">High-Authority</span>
+                        Guest Posts & Backlinks 🚀
+                    </h1>
+                    <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+                        Trusted by hundreds of website owners — Delivered by a professional outreach expert with access to 1000+ verified high-DA websites.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 mb-8">
+                        <a href="#websites" class="btn-primary text-white px-8 py-4 rounded-full font-semibold text-lg inline-flex items-center justify-center">
+                            <i class="fas fa-search mr-2"></i>
+                            Browse Websites 🔍
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=447417428184&text=Hi%20Sadaf,%20I'm%20interested%20in%20your%20guest%20post%20and%20backlink%20services.%20Can%20you%20please%20share%20more%20details%20about%20pricing%20and%20available%20websites?" target="_blank" class="btn-success text-white px-8 py-4 rounded-full font-semibold text-lg inline-flex items-center justify-center">
+                            <i class="fab fa-whatsapp mr-2"></i>
+                            Message on WhatsApp 💬
+                        </a>
+                    </div>
+                    <div class="grid grid-cols-3 gap-6 text-center">
+                        <div>
+                            <div class="stats-counter">1000+</div>
+                            <p class="text-gray-300">Verified Websites</p>
+                        </div>
+                        <div>
+                            <div class="stats-counter">2+</div>
+                            <p class="text-gray-300">Years Experience</p>
+                        </div>
+                        <div>
+                            <div class="stats-counter">500+</div>
+                            <p class="text-gray-300">Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide-up">
+                    <div class="relative">
+                        <div class="floating bg-white rounded-2xl shadow-2xl p-8">
+                            <div class="text-center">
+                                <div class="w-24 h-24 bg-gradient-to-r from-blue-500 to-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                                    <i class="fas fa-user-tie text-3xl text-white"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-2 font-poppins">Sadaf Ejaz</h3>
+                                <p class="text-blue-600 font-semibold mb-4">SEO Outreach Expert</p>
+                                <div class="space-y-3 text-sm text-gray-600">
+                                    <div class="flex items-center justify-center">
+                                        <i class="fas fa-star text-yellow-500 mr-2"></i>
+                                        2+ Years of Experience
+                                    </div>
+                                    <div class="flex items-center justify-center">
+                                        <i class="fas fa-globe text-blue-500 mr-2"></i>
+                                        1000+ Website Network
+                                    </div>
+                                    <div class="flex items-center justify-center">
+                                        <i class="fas fa-handshake text-green-500 mr-2"></i>
+                                        Direct Admin Relationships
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-white section-padding">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 slide-up">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4 font-poppins">About Sadaf Ejaz</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Your trusted partner in building high-quality backlinks and boosting search rankings</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="slide-up">
+                    <div class="relative">
+                        <div class="w-80 h-80 mx-auto relative overflow-hidden rounded-full shadow-2xl">
+                            <img 
+                                src="https://i.postimg.cc/3wvksMYt/Whats-App-Image-2025-08-02-at-08-05-01-5b3ad87f.jpg" 
+                                alt="Sadaf Ejaz - SEO Expert" 
+                                class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                            />
+                            <div class="w-full h-full bg-gradient-to-r from-blue-500 to-green-500 rounded-full flex items-center justify-center absolute inset-0" style="display: none;">
+                                <i class="fas fa-user-circle text-9xl text-white"></i>
+                            </div>
+                        </div>
+                        <div class="absolute -bottom-4 -right-4 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center shadow-lg">
+                            <i class="fas fa-check text-2xl text-white"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide-up">
+                    <h3 class="text-3xl font-bold text-gray-900 mb-6 font-poppins">Outreach Expert with 2+ Years of Experience</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        I'm Sadaf Ejaz, a dedicated SEO outreach specialist with direct relationships with over 1000 website administrators across multiple high-authority domains. My expertise spans across various niches including SAAS, Health, Technology, Real Estate, and Fashion.
+                    </p>
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3 text-xl"></i>
+                            <span class="text-gray-700 font-medium">Direct relationships with 1000+ website admins</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3 text-xl"></i>
+                            <span class="text-gray-700 font-medium">Expertise in SAAS, Health, Tech, Real Estate, Fashion</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3 text-xl"></i>
+                            <span class="text-gray-700 font-medium">Manual outreach for authentic link building</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3 text-xl"></i>
+                            <span class="text-gray-700 font-medium">White-hat SEO practices only</span>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-blue-50 rounded-lg p-4 text-center">
+                            <div class="text-2xl font-bold text-blue-600">DR 50+</div>
+                            <p class="text-sm text-gray-600">Average Domain Rating</p>
+                        </div>
+                        <div class="bg-green-50 rounded-lg p-4 text-center">
+                            <div class="text-2xl font-bold text-green-600">100%</div>
+                            <p class="text-sm text-gray-600">Manual Outreach</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-gray-50 section-padding">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 slide-up">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4 font-poppins">Services Offered</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Comprehensive SEO solutions to boost your online presence</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="card-hover bg-white rounded-2xl p-8 shadow-lg text-center">
+                    <div class="service-icon w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-edit text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 font-poppins">Guest Post Service</h3>
+                    <p class="text-gray-600 leading-relaxed">High-quality guest posts on relevant, high-authority websites in your niche with natural link placement.</p>
+                </div>
+                
+                <div class="card-hover bg-white rounded-2xl p-8 shadow-lg text-center">
+                    <div class="service-icon w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-link text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 font-poppins">Niche-Based Link Building</h3>
+                    <p class="text-gray-600 leading-relaxed">Targeted backlinks from websites specifically relevant to your industry and target audience.</p>
+                </div>
+                
+                <div class="card-hover bg-white rounded-2xl p-8 shadow-lg text-center">
+                    <div class="service-icon w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-chart-line text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 font-poppins">High-DA Backlinks</h3>
+                    <p class="text-gray-600 leading-relaxed">Premium backlinks from websites with Domain Authority 50+ and real organic traffic.</p>
+                </div>
+                
+                <div class="card-hover bg-white rounded-2xl p-8 shadow-lg text-center">
+                    <div class="service-icon w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-bullhorn text-2xl text-orange-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 font-poppins">Custom Outreach</h3>
+                    <p class="text-gray-600 leading-relaxed">Personalized outreach campaigns tailored to your specific goals and target websites.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Guest Posting Section -->
+    <section class="bg-white section-padding">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 slide-up">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4 font-poppins">Why Guest Posting & Backlinks Matter for SEO</h2>
+                <p class="text-xl text-gray-600 max-w-4xl mx-auto">Understanding the power of high-quality backlinks in modern SEO strategy</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+                <div class="slide-up">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6 font-poppins">What is Guest Posting?</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Guest posting is a white-hat SEO strategy where you publish high-quality content on other websites in exchange for a backlink to your site. This practice helps build domain authority, increase referral traffic, and improve search engine rankings through natural link building.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        When done correctly with manual outreach and quality content, guest posting becomes one of the most effective ways to build sustainable, long-term SEO results that comply with Google's guidelines.
+                    </p>
+                    <div class="bg-blue-50 rounded-lg p-6">
+                        <h4 class="font-bold text-blue-900 mb-3">Key Benefits:</h4>
+                        <ul class="space-y-2 text-blue-800">
+                            <li class="flex items-center"><i class="fas fa-check mr-2"></i> Improved search rankings</li>
+                            <li class="flex items-center"><i class="fas fa-check mr-2"></i> Increased domain authority</li>
+                            <li class="flex items-center"><i class="fas fa-check mr-2"></i> Quality referral traffic</li>
+                            <li class="flex items-center"><i class="fas fa-check mr-2"></i> Brand exposure</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="slide-up">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6 font-poppins">Why Manual Outreach Beats Automation</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Manual outreach for backlinks ensures authentic relationships with website owners, leading to higher acceptance rates and better quality placements. Unlike automated tools that send generic messages, manual outreach allows for personalized communication that builds trust and long-term partnerships.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-user text-green-600 text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">Personal Relationships</h4>
+                                <p class="text-gray-600">Direct communication with website admins builds trust and increases success rates.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-quality text-green-600 text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">Quality Over Quantity</h4>
+                                <p class="text-gray-600">Focus on high-DA, relevant websites rather than mass outreach to low-quality sites.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-shield-alt text-green-600 text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">Safe White-Hat Practices</h4>
+                                <p class="text-gray-600">Manual outreach ensures compliance with Google guidelines and reduces penalty risks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-r from-blue-50 to-green-50 rounded-2xl p-8 lg:p-12">
+                <h3 class="text-3xl font-bold text-gray-900 mb-8 text-center font-poppins">How High-Quality Backlinks Boost Your Rankings</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-search text-2xl text-white"></i>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-900 mb-3">Search Engine Trust</h4>
+                        <p class="text-gray-600">Backlinks from high DA websites signal to Google that your content is valuable and trustworthy, leading to better rankings.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-users text-2xl text-white"></i>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-900 mb-3">Referral Traffic</h4>
+                        <p class="text-gray-600">Quality backlinks drive targeted visitors to your website, increasing engagement metrics that further boost SEO.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-trophy text-2xl text-white"></i>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-900 mb-3">Domain Authority</h4>
+                        <p class="text-gray-600">Consistent high-quality backlinks gradually increase your domain authority, making it easier to rank for competitive keywords.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Website Spreadsheet Section -->
+    <section id="websites" class="bg-gray-50 section-padding">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 slide-up">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4 font-poppins">📊 Browse Verified Websites with Live Metrics</h2>
+                <p class="text-xl text-gray-600 mb-6">Explore our database of 1000+ high-authority websites across various niches</p>
+                <div class="bg-green-100 border border-green-300 rounded-lg p-4 max-w-2xl mx-auto">
+                    <p class="text-green-800 font-semibold">
+                        <i class="fas fa-info-circle mr-2"></i>
+                        Contact on WhatsApp for orders after selecting a website!
+                    </p>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-2xl shadow-2xl overflow-hidden slide-up">
+                <div class="bg-gradient-to-r from-blue-600 to-green-600 text-white p-4">
+                    <h3 class="text-xl font-bold flex items-center">
+                        <i class="fas fa-table mr-3"></i>
+                        High-Authority Website Database
+                    </h3>
+                    <p class="text-blue-100 mt-1">1000+ Verified Websites • Updated Daily</p>
+                </div>
+                
+                <div class="p-4">
+                    <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+                        <h4 class="font-bold text-blue-900 mb-2">
+                            <i class="fas fa-table mr-2"></i>Live Google Sheets Database
+                        </h4>
+                        <p class="text-blue-800 text-sm">
+                            Browse our complete database of 1000+ verified websites with real-time metrics, pricing, and availability status.
+                        </p>
+                    </div>
+                    
+                    <div class="spreadsheet-container">
+                        <!-- Direct link to Google Sheets instead of embedding -->
+                        <div class="bg-gradient-to-br from-blue-50 to-green-50 border border-blue-200 rounded-lg p-8 text-center">
+                            <div class="mb-6">
+                                <i class="fas fa-table text-6xl text-blue-600 mb-4"></i>
+                                <h4 class="text-2xl font-bold text-blue-900 mb-3">📊 Live Website Database</h4>
+                                <p class="text-blue-800 text-lg mb-4">
+                                    Access our complete database of <strong>1000+ verified high-authority websites</strong> with real-time metrics, pricing, and availability.
+                                </p>
+                                
+                                <div class="bg-white rounded-lg p-4 mb-6 shadow-sm">
+                                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                                        <div>
+                                            <div class="text-2xl font-bold text-blue-600">1000+</div>
+                                            <div class="text-sm text-gray-600">Websites</div>
+                                        </div>
+                                        <div>
+                                            <div class="text-2xl font-bold text-green-600">DA 50+</div>
+                                            <div class="text-sm text-gray-600">Average Rating</div>
+                                        </div>
+                                        <div>
+                                            <div class="text-2xl font-bold text-purple-600">Live</div>
+                                            <div class="text-sm text-gray-600">Metrics</div>
+                                        </div>
+                                        <div>
+                                            <div class="text-2xl font-bold text-orange-600">Updated</div>
+                                            <div class="text-sm text-gray-600">Daily</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="space-y-4">
+                                <a href="https://docs.google.com/spreadsheets/d/1N11W0JzbRTQ5TkwrnQSxOv67eV-I87c7Ld1U4NbRVqs/edit#gid=0" 
+                                   target="_blank" 
+                                   class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-full font-bold text-lg hover:from-blue-700 hover:to-blue-800 transition-all transform hover:scale-105 inline-flex items-center justify-center shadow-lg">
+                                    <i class="fas fa-external-link-alt mr-3"></i>
+                                    🚀 Open Complete Database
+                                </a>
+                                
+                                <p class="text-blue-700 font-medium">
+                                    <i class="fas fa-info-circle mr-2"></i>
+                                    Click above to browse all websites with DA/DR ratings, pricing, and contact details
+                                </p>
+                                
+                                <div class="bg-green-100 border border-green-300 rounded-lg p-3 mt-4">
+                                    <p class="text-green-800 font-semibold text-sm">
+                                        <i class="fas fa-lightbulb mr-2"></i>
+                                        <strong>How to use:</strong> Browse the database → Select websites → Contact us on WhatsApp to place your order!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 text-center">
+                        <p class="text-gray-600 mb-4">
+                            <i class="fas fa-info-circle text-blue-500 mr-2"></i>
+                            Complete database with 1000+ verified websites. Select any website and contact us to place your order!
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                            <a href="https://api.whatsapp.com/send?phone=447417428184&text=Hi%20Sadaf,%20I%20want%20to%20place%20an%20order%20for%20guest%20posts%20from%20your%20database.%20Please%20guide%20me%20through%20the%20process!" target="_blank" class="bg-gradient-to-r from-green-600 to-green-700 text-white px-6 py-3 rounded-full font-semibold hover:from-green-700 hover:to-green-800 transition-all transform hover:scale-105 inline-flex items-center justify-center">
+                                <i class="fab fa-whatsapp mr-2"></i>
+                                Order from Database
+                            </a>
+                            <a href="https://docs.google.com/spreadsheets/d/1N11W0JzbRTQ5TkwrnQSxOv67eV-I87c7Ld1U4NbRVqs/edit#gid=0" target="_blank" class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-blue-800 transition-all transform hover:scale-105 inline-flex items-center justify-center">
+                                <i class="fas fa-external-link-alt mr-2"></i>
+                                Open Full Sheet
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-8">
+                <a href="https://api.whatsapp.com/send?phone=447417428184&text=Hi%20Sadaf,%20I%20want%20to%20place%20an%20order%20for%20guest%20posts%20and%20backlinks.%20Please%20guide%20me%20through%20the%20process!" target="_blank" class="btn-success text-white px-8 py-4 rounded-full font-semibold text-lg inline-flex items-center">
+                    <i class="fab fa-whatsapp mr-2"></i>
+                    Order Now on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-white section-padding">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 slide-up">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4 font-poppins">What Clients Say</h2>
+                <p class="text-xl text-gray-600">Trusted by businesses worldwide for quality SEO services</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="card-hover testimonial-card rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Sarah Johnson</h4>
+                            <p class="text-gray-600 text-sm">E-commerce Owner</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-4">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                    <p class="text-gray-700 italic">"Sadaf delivered exactly what she promised. My website's rankings improved significantly within 3 months. Professional service!"</p>
+                </div>
+                
+                <div class="card-hover testimonial-card rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Mike Chen</h4>
+                            <p class="text-gray-600 text-sm">SaaS Founder</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-4">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                    <p class="text-gray-700 italic">"The quality of backlinks was outstanding. Real websites with actual traffic. Worth every penny for our startup's SEO strategy."</p>
+                </div>
+                
+                <div class="card-hover testimonial-card rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Emma Davis</h4>
+                            <p class="text-gray-600 text-sm">Digital Marketer</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-4">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                    <p class="text-gray-700 italic">"Fast delivery, great communication, and results that speak for themselves. Sadaf is my go-to for all link building needs."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="gradient-bg section-padding">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="slide-up">
+                <h2 class="text-4xl font-bold text-white mb-4 font-poppins">Ready to Order? Just Send a Message on WhatsApp 💬</h2>
+                <p class="text-xl text-gray-200 mb-12">Get started with professional SEO services today</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                    <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold text-white mb-6">Contact Information</h3>
+                        <div class="space-y-4 text-left">
+                            <a href="https://api.whatsapp.com/send?phone=447417428184&text=Hi%20Sadaf,%20I%20found%20your%20website%20and%20I'm%20interested%20in%20your%20SEO%20services.%20Can%20we%20discuss%20my%20requirements?" target="_blank" class="flex items-center text-white hover:text-green-300 transition-colors">
+                                <i class="fab fa-whatsapp text-2xl mr-4"></i>
+                                <div>
+                                    <div class="font-semibold">Business WhatsApp</div>
+                                    <div class="text-gray-300">+44 7417 428184</div>
+                                </div>
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=923365679587&text=Hi%20Sadaf,%20I%20found%20your%20website%20and%20I'm%20interested%20in%20your%20SEO%20services.%20Can%20we%20discuss%20my%20requirements?" target="_blank" class="flex items-center text-white hover:text-green-300 transition-colors">
+                                <i class="fab fa-whatsapp text-2xl mr-4"></i>
+                                <div>
+                                    <div class="font-semibold">Personal WhatsApp</div>
+                                    <div class="text-gray-300">+92 336 5679587</div>
+                                </div>
+                            </a>
+                            <a href="mailto:sadafejaz0300@gmail.com" class="flex items-center text-white hover:text-blue-300 transition-colors">
+                                <i class="fas fa-envelope text-2xl mr-4"></i>
+                                <div>
+                                    <div class="font-semibold">Email</div>
+                                    <div class="text-gray-300">sadafejaz0300@gmail.com</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold text-white mb-6">Social Media</h3>
+                        <div class="space-y-4 text-left">
+                            <a href="https://www.linkedin.com/in/sadaf-ejaz-53a227308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="flex items-center text-white hover:text-blue-300 transition-colors">
+                                <i class="fab fa-linkedin text-2xl mr-4"></i>
+                                <div>
+                                    <div class="font-semibold">LinkedIn</div>
+                                    <div class="text-gray-300">Sadaf Ejaz</div>
+                                </div>
+                            </a>
+                            <a href="https://www.facebook.com/sadaf.ejaz.773" target="_blank" class="flex items-center text-white hover:text-blue-300 transition-colors">
+                                <i class="fab fa-facebook text-2xl mr-4"></i>
+                                <div>
+                                    <div class="font-semibold">Facebook</div>
+                                    <div class="text-gray-300">sadaf.ejaz.773</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://api.whatsapp.com/send?phone=447417428184&text=Hi%20Sadaf,%20I'm%20ready%20to%20start%20my%20order%20for%20guest%20posts%20and%20backlinks.%20Please%20share%20the%20next%20steps!" target="_blank" class="btn-success text-white px-8 py-4 rounded-full font-semibold text-lg inline-flex items-center justify-center">
+                        <i class="fab fa-whatsapp mr-2"></i>
+                        Start Your Order Now
+                    </a>
+                    <a href="mailto:sadafejaz0300@gmail.com" class="bg-white/20 text-white border-2 border-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-blue-600 transition-all inline-flex items-center justify-center">
+                        <i class="fas fa-envelope mr-2"></i>
+                        Send Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="col-span-2">
+                    <h3 class="text-2xl font-bold mb-4 font-poppins">Sadaf Ejaz</h3>
+                    <p class="text-gray-300 mb-4 leading-relaxed">Professional SEO outreach expert specializing in high-authority guest posts and backlink services. Helping businesses improve their search rankings with white-hat link building strategies.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://api.whatsapp.com/send?phone=447417428184&text=Hi%20Sadaf,%20I%20found%20your%20website%20and%20I'm%20interested%20in%20your%20SEO%20services!" target="_blank" class="text-green-400 hover:text-green-300 text-2xl">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="mailto:sadafejaz0300@gmail.com" class="text-blue-400 hover:text-blue-300 text-2xl">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sadaf-ejaz-53a227308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="text-blue-400 hover:text-blue-300 text-2xl">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.facebook.com/sadaf.ejaz.773" target="_blank" class="text-blue-400 hover:text-blue-300 text-2xl">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#services" class="hover:text-white transition-colors">Guest Post Service</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">High-DA Backlinks</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">Niche Link Building</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">Custom Outreach</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#about" class="hover:text-white transition-colors">About</a></li>
+                        <li><a href="#websites" class="hover:text-white transition-colors">Browse Websites</a></li>
+                        <li><a href="#contact" class="hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 Sadaf Ejaz. All rights reserved. | Built with ❤️ by Sadaf Ejaz</p>
+                <p class="text-gray-500 text-sm mt-2">High DA guest post service | Backlinks provider | Manual outreach for backlinks | Get backlinks for SEO</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://api.whatsapp.com/send?phone=447417428184&text=Hi%20Sadaf,%20I%20need%20help%20with%20guest%20posts%20and%20backlinks%20for%20my%20website.%20Can%20you%20assist%20me?" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp" style="margin-top: 16px;"></i>
+    </a>
+    
+    </div> <!-- End Main Content Wrapper -->
+
+    <script>
+        // Enhanced Mobile menu toggle - Fixed implementation
+        let mobileMenuOpen = false;
+        
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const line1 = document.getElementById('hamburger-line-1');
+            const line2 = document.getElementById('hamburger-line-2');
+            const line3 = document.getElementById('hamburger-line-3');
+            const body = document.body;
+            
+            if (!mobileMenuOpen) {
+                // Open menu with smooth animation
+                mobileMenu.classList.remove('translate-x-full');
+                mobileMenu.classList.add('translate-x-0');
+                
+                // Animate hamburger to X
+                line1.style.transform = 'rotate(45deg) translate(5px, 5px)';
+                line2.style.opacity = '0';
+                line3.style.transform = 'rotate(-45deg) translate(7px, -6px)';
+                
+                body.classList.add('mobile-menu-open');
+                body.style.overflow = 'hidden';
+                mobileMenuOpen = true;
+                
+                // Add backdrop blur effect
+                mobileMenu.style.backdropFilter = 'blur(10px)';
+                mobileMenu.style.webkitBackdropFilter = 'blur(10px)';
+                
+                // Play sound
+                if (typeof playTapSound === 'function') playTapSound();
+            } else {
+                // Close menu with smooth animation
+                mobileMenu.classList.remove('translate-x-0');
+                mobileMenu.classList.add('translate-x-full');
+                
+                // Animate X back to hamburger
+                line1.style.transform = 'rotate(0) translate(0, 0)';
+                line2.style.opacity = '1';
+                line3.style.transform = 'rotate(0) translate(0, 0)';
+                
+                body.classList.remove('mobile-menu-open');
+                body.style.overflow = '';
+                mobileMenuOpen = false;
+                
+                // Remove backdrop blur effect
+                setTimeout(() => {
+                    mobileMenu.style.backdropFilter = '';
+                    mobileMenu.style.webkitBackdropFilter = '';
+                }, 500);
+                
+                // Play sound
+                if (typeof playTapSound === 'function') playTapSound();
+            }
+        }
+        
+        // Close menu when clicking outside (on backdrop)
+        function handleBackdropClick(event) {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const menuContent = mobileMenu.querySelector('.flex.flex-col');
+            
+            if (mobileMenuOpen && !menuContent.contains(event.target)) {
+                toggleMobileMenu();
+            }
+        }
+        
+        // Add event listener after DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            if (mobileMenuBtn) {
+                mobileMenuBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    toggleMobileMenu();
+                });
+            }
+            
+            // Add backdrop click listener
+            if (mobileMenu) {
+                mobileMenu.addEventListener('click', handleBackdropClick);
+            }
+            
+            // Close mobile menu when clicking on navigation links
+            document.querySelectorAll('.mobile-menu-link').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    // Don't close immediately for external links
+                    if (!this.getAttribute('href').startsWith('#')) {
+                        return;
+                    }
+                    
+                    if (mobileMenuOpen) {
+                        setTimeout(() => {
+                            toggleMobileMenu();
+                        }, 100);
+                    }
+                });
+            });
+            
+            // Prevent menu from closing when clicking on menu content
+            const menuContent = mobileMenu?.querySelector('.flex.flex-col');
+            if (menuContent) {
+                menuContent.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                });
+            }
+            
+            // Close menu on escape key
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && mobileMenuOpen) {
+                    toggleMobileMenu();
+                }
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all animated elements
+        document.querySelectorAll('.slide-up, .fade-in').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+            observer.observe(el);
+        });
+
+        // Counter animation for stats
+        function animateCounters() {
+            const counters = document.querySelectorAll('.stats-counter');
+            counters.forEach(counter => {
+                const target = parseInt(counter.textContent.replace('+', ''));
+                let current = 0;
+                const increment = target / 100;
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        counter.textContent = target + '+';
+                        clearInterval(timer);
+                    } else {
+                        counter.textContent = Math.floor(current) + '+';
+                    }
+                }, 20);
+            });
+        }
+
+        // Trigger counter animation when hero section is visible
+        const heroObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateCounters();
+                    heroObserver.unobserve(entry.target);
+                }
+            });
+        });
+
+        // Add click sound effects
+        function playClickSound() {
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.frequency.setValueAtTime(800, audioContext.currentTime);
+            gainNode.gain.setValueAtTime(0.1, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.1);
+            
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + 0.1);
+        }
+
+        // Add sound to buttons
+        document.querySelectorAll('button, .btn-primary, .btn-success').forEach(button => {
+            button.addEventListener('click', playClickSound);
+        });
+
+        // Enhanced 3D Cinematic Intro with Three.js - Flying Camera Experience
+        let scene, camera, renderer, animationId;
+        let websites = [], metrics = [], particles = [], dataElements = [];
+        let cameraPath = [];
+        let pathProgress = 0;
+        let introStartTime = Date.now();
+        let loadingStarted = false;
+        let currentPercentage = 0;
+        
+        // Enhanced Sound Effects
+        function playWhooshSound() {
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            const filter = audioContext.createBiquadFilter();
+            
+            oscillator.connect(filter);
+            filter.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.type = 'sawtooth';
+            oscillator.frequency.setValueAtTime(300, audioContext.currentTime);
+            oscillator.frequency.exponentialRampToValueAtTime(80, audioContext.currentTime + 2);
+            
+            filter.type = 'lowpass';
+            filter.frequency.setValueAtTime(3000, audioContext.currentTime);
+            filter.frequency.exponentialRampToValueAtTime(200, audioContext.currentTime + 2);
+            
+            gainNode.gain.setValueAtTime(0.4, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 2);
+            
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + 2);
+        }
+        
+        function playLoadingSound() {
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.frequency.setValueAtTime(600, audioContext.currentTime);
+            oscillator.frequency.linearRampToValueAtTime(800, audioContext.currentTime + 0.3);
+            gainNode.gain.setValueAtTime(0.2, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.3);
+            
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + 0.3);
+        }
+        
+        function playPopSound() {
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.frequency.setValueAtTime(1000, audioContext.currentTime);
+            oscillator.frequency.exponentialRampToValueAtTime(500, audioContext.currentTime + 0.2);
+            gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.2);
+            
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + 0.2);
+        }
+        
+        function playTapSound() {
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.frequency.setValueAtTime(1200, audioContext.currentTime);
+            gainNode.gain.setValueAtTime(0.2, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.1);
+            
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + 0.1);
+        }
+        
+        function initCinematicIntro() {
+            const canvas = document.getElementById('three-canvas');
+            
+            // Scene setup with enhanced atmosphere
+            scene = new THREE.Scene();
+            scene.background = new THREE.Color(0x000011);
+            scene.fog = new THREE.Fog(0x000022, 30, 300);
+            
+            // Camera setup for flying experience
+            camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+            camera.position.set(0, 0, 200);
+            
+            // Enhanced renderer setup
+            renderer = new THREE.WebGLRenderer({ 
+                canvas: canvas, 
+                antialias: true,
+                alpha: true
+            });
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.shadowMap.enabled = true;
+            renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+            renderer.setClearColor(0x000011, 1);
+            renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+            
+            // Enhanced lighting for dramatic effect
+            const ambientLight = new THREE.AmbientLight(0x404080, 0.4);
+            scene.add(ambientLight);
+            
+            const directionalLight = new THREE.DirectionalLight(0xffffff, 1.5);
+            directionalLight.position.set(50, 50, 20);
+            directionalLight.castShadow = true;
+            directionalLight.shadow.mapSize.width = 4096;
+            directionalLight.shadow.mapSize.height = 4096;
+            scene.add(directionalLight);
+            
+            // Multiple colored point lights for atmosphere
+            const lights = [
+                { color: 0x3b82f6, position: [-100, 50, 50] },
+                { color: 0x10b981, position: [100, -50, 50] },
+                { color: 0x8b5cf6, position: [0, 100, -50] },
+                { color: 0xf59e0b, position: [-50, -100, 30] }
+            ];
+            
+            lights.forEach(lightData => {
+                const light = new THREE.PointLight(lightData.color, 2, 200);
+                light.position.set(...lightData.position);
+                scene.add(light);
+            });
+            
+            // Create spectacular 3D digital space
+            createDigitalSpace();
+            
+            // Setup flying camera path
+            setupFlyingCameraPath();
+            
+            // Start the cinematic experience
+            playWhooshSound();
+            animate();
+        }
+        
+        function createDigitalSpace() {
+            // Create floating website pages with enhanced visuals
+            createFloatingWebsites();
+            
+            // Create DA/DR ranking bars
+            createRankingBars();
+            
+            // Create article elements
+            createArticleElements();
+            
+            // Create data visualization elements
+            createDataVisuals();
+            
+            // Create particle systems
+            createParticleSystems();
+            
+            // Create connecting networks
+            createNetworkConnections();
+        }
+        
+        function createFloatingWebsites() {
+            const websiteData = [
+                { name: 'TechCrunch', color: 0x3b82f6, position: [-150, 80, -100], da: 95 },
+                { name: 'Forbes', color: 0x10b981, position: [120, -70, -120], da: 92 },
+                { name: 'Healthline', color: 0x8b5cf6, position: [-100, -90, -80], da: 88 },
+                { name: 'Entrepreneur', color: 0xf59e0b, position: [140, 60, -140], da: 85 },
+                { name: 'Medium', color: 0xef4444, position: [-130, 40, -60], da: 90 },
+                { name: 'HubSpot', color: 0x06b6d4, position: [110, -80, -160], da: 87 },
+                { name: 'Mashable', color: 0x84cc16, position: [-160, -40, -90], da: 83 },
+                { name: 'Inc.com', color: 0xf97316, position: [130, 90, -110], da: 89 },
+                { name: 'Wired', color: 0x9333ea, position: [-110, 100, -70], da: 91 },
+                { name: 'Vox', color: 0xdc2626, position: [100, -100, -100], da: 86 },
+                { name: 'Buzzfeed', color: 0x059669, position: [-80, 60, -180], da: 84 },
+                { name: 'TheVerge', color: 0x7c3aed, position: [160, 30, -80], da: 93 },
+                { name: 'Ahrefs', color: 0xff6b35, position: [-70, -110, -130], da: 96 },
+                { name: 'SEMrush', color: 0x00d4aa, position: [80, 110, -120], da: 94 },
+                { name: 'Moz', color: 0x004dcf, position: [-170, 20, -100], da: 88 },
+                { name: 'Neil Patel', color: 0x00bcd4, position: [50, -120, -90], da: 89 },
+                { name: 'Backlinko', color: 0x4caf50, position: [170, -20, -150], da: 85 },
+                { name: 'Search Engine Journal', color: 0xff4081, position: [-90, 120, -110], da: 87 },
+                { name: 'Authority Hacker', color: 0x9c27b0, position: [180, 100, -80], da: 89 },
+                { name: 'Content Marketing Institute', color: 0xff5722, position: [-180, -80, -120], da: 91 },
+                { name: 'Marketing Land', color: 0x607d8b, position: [60, 140, -100], da: 86 },
+                { name: 'Social Media Examiner', color: 0xe91e63, position: [-140, -120, -90], da: 88 }
+            ];
+            
+            websiteData.forEach((site, index) => {
+                // Create main website page
+                const pageGeometry = new THREE.PlaneGeometry(25, 20);
+                const pageMaterial = new THREE.MeshPhongMaterial({ 
+                    color: site.color,
+                    transparent: true,
+                    opacity: 0.9,
+                    emissive: site.color,
+                    emissiveIntensity: 0.3,
+                    side: THREE.DoubleSide
+                });
+                
+                const page = new THREE.Mesh(pageGeometry, pageMaterial);
+                page.position.set(...site.position);
+                page.rotation.set(
+                    Math.random() * 1.2,
+                    Math.random() * 1.2,
+                    Math.random() * 0.8
+                );
+                
+                // Enhanced glow effect with multiple layers
+                const glowGeometry1 = new THREE.PlaneGeometry(30, 25);
+                const glowMaterial1 = new THREE.MeshBasicMaterial({
+                    color: site.color,
+                    transparent: true,
+                    opacity: 0.4,
+                    side: THREE.DoubleSide
+                });
+                const glow1 = new THREE.Mesh(glowGeometry1, glowMaterial1);
+                glow1.position.copy(page.position);
+                glow1.rotation.copy(page.rotation);
+                scene.add(glow1);
+                
+                // Outer halo
+                const haloGeometry = new THREE.PlaneGeometry(35, 30);
+                const haloMaterial = new THREE.MeshBasicMaterial({
+                    color: site.color,
+                    transparent: true,
+                    opacity: 0.2,
+                    side: THREE.DoubleSide
+                });
+                const halo = new THREE.Mesh(haloGeometry, haloMaterial);
+                halo.position.copy(page.position);
+                halo.rotation.copy(page.rotation);
+                scene.add(halo);
+                
+                // DA indicator
+                const daGeometry = new THREE.SphereGeometry(3, 16, 16);
+                const daMaterial = new THREE.MeshPhongMaterial({
+                    color: 0xffd700,
+                    emissive: 0xffd700,
+                    emissiveIntensity: 0.5
+                });
+                const daIndicator = new THREE.Mesh(daGeometry, daMaterial);
+                daIndicator.position.set(10, 8, 2);
+                page.add(daIndicator);
+                
+                scene.add(page);
+                websites.push(page);
+                
+                // Store references for animation
+                page.userData = {
+                    originalPos: page.position.clone(),
+                    floatSpeed: Math.random() * 0.02 + 0.01,
+                    rotationSpeed: Math.random() * 0.015 + 0.01,
+                    phase: index * 0.8,
+                    glow: glow1,
+                    halo: halo,
+                    da: site.da,
+                    amplitude: Math.random() * 15 + 10
+                };
+            });
+        }
+        
+        function createRankingBars() {
+            const barPositions = [
+                { pos: [-80, 20, -50], height: 15, color: 0x10b981, label: 'DA 95' },
+                { pos: [70, -30, -60], height: 12, color: 0x3b82f6, label: 'DR 88' },
+                { pos: [-60, -50, -40], height: 18, color: 0x8b5cf6, label: 'DA 92' },
+                { pos: [90, 40, -70], height: 10, color: 0xf59e0b, label: 'DR 75' },
+                { pos: [-100, 60, -80], height: 14, color: 0xef4444, label: 'DA 87' },
+                { pos: [50, -60, -90], height: 16, color: 0x06b6d4, label: 'DR 91' },
+                { pos: [-40, 80, -30], height: 11, color: 0x84cc16, label: 'DA 83' },
+                { pos: [110, 10, -100], height: 13, color: 0xf97316, label: 'DR 86' }
+            ];
+            
+            barPositions.forEach((item, i) => {
+                // Create ranking bar
+                const barGeometry = new THREE.BoxGeometry(4, item.height, 4);
+                const barMaterial = new THREE.MeshPhongMaterial({ 
+                    color: item.color,
+                    emissive: item.color,
+                    emissiveIntensity: 0.4,
+                    transparent: true,
+                    opacity: 0.9
+                });
+                const bar = new THREE.Mesh(barGeometry, barMaterial);
+                bar.position.set(...item.pos);
+                
+                // Enhanced glow for bars
+                const glowGeometry = new THREE.BoxGeometry(5, item.height + 2, 5);
+                const glowMaterial = new THREE.MeshBasicMaterial({ 
+                    color: item.color,
+                    transparent: true,
+                    opacity: 0.3
+                });
+                const glow = new THREE.Mesh(glowGeometry, glowMaterial);
+                glow.position.copy(bar.position);
+                
+                scene.add(bar);
+                scene.add(glow);
+                metrics.push(bar);
+                
+                bar.userData = { 
+                    pulseSpeed: Math.random() * 0.03 + 0.02,
+                    originalHeight: item.height,
+                    glow: glow,
+                    rotationSpeed: Math.random() * 0.01 + 0.005
+                };
+            });
+        }
+        
+        function createArticleElements() {
+            for (let i = 0; i < 15; i++) {
+                const articleGeometry = new THREE.BoxGeometry(8, 1, 6);
+                const articleMaterial = new THREE.MeshLambertMaterial({ 
+                    color: 0xffffff,
+                    transparent: true,
+                    opacity: 0.8
+                });
+                const article = new THREE.Mesh(articleGeometry, articleMaterial);
+                
+                article.position.set(
+                    (Math.random() - 0.5) * 200,
+                    (Math.random() - 0.5) * 150,
+                    (Math.random() - 0.5) * 200 - 50
+                );
+                article.rotation.set(
+                    Math.random() * 0.5,
+                    Math.random() * 0.5,
+                    Math.random() * 0.5
+                );
+                
+                scene.add(article);
+                
+                article.userData = { 
+                    rotationSpeed: { 
+                        x: (Math.random() - 0.5) * 0.02,
+                        y: (Math.random() - 0.5) * 0.02,
+                        z: (Math.random() - 0.5) * 0.02
+                    },
+                    floatSpeed: Math.random() * 0.01 + 0.005
+                };
+            }
+        }
+        
+        function createDataVisuals() {
+            // Create floating data charts
+            for (let i = 0; i < 12; i++) {
+                const chartGeometry = new THREE.BoxGeometry(12, 8, 1);
+                const chartColors = [0x2563eb, 0x10b981, 0x8b5cf6, 0xf59e0b];
+                const chartColor = chartColors[i % chartColors.length];
+                
+                const chartMaterial = new THREE.MeshPhongMaterial({
+                    color: chartColor,
+                    emissive: chartColor,
+                    emissiveIntensity: 0.2,
+                    transparent: true,
+                    opacity: 0.8
+                });
+                
+                const chart = new THREE.Mesh(chartGeometry, chartMaterial);
+                chart.position.set(
+                    (Math.random() - 0.5) * 180,
+                    (Math.random() - 0.5) * 120,
+                    (Math.random() - 0.5) * 160
+                );
+                chart.rotation.set(
+                    Math.random() * 0.8,
+                    Math.random() * 0.8,
+                    Math.random() * 0.8
+                );
+                
+                // Add chart bars
+                for (let j = 0; j < 6; j++) {
+                    const barGeometry = new THREE.BoxGeometry(1.5, Math.random() * 5 + 2, 0.5);
+                    const barMaterial = new THREE.MeshPhongMaterial({
+                        color: 0x10b981,
+                        emissive: 0x10b981,
+                        emissiveIntensity: 0.3
+                    });
+                    const bar = new THREE.Mesh(barGeometry, barMaterial);
+                    bar.position.set(j * 2 - 5, 0, 0.6);
+                    chart.add(bar);
+                }
+                
+                scene.add(chart);
+                dataElements.push(chart);
+                
+                chart.userData = {
+                    rotationSpeed: {
+                        x: (Math.random() - 0.5) * 0.015,
+                        y: (Math.random() - 0.5) * 0.015,
+                        z: (Math.random() - 0.5) * 0.015
+                    },
+                    floatSpeed: Math.random() * 0.008 + 0.004
+                };
+            }
+        }
+        
+        function createParticleSystems() {
+            const particleColors = [0x60a5fa, 0x34d399, 0xa78bfa, 0xfbbf24, 0xf87171];
+            
+            // Create main particle system with enhanced effects
+            for (let i = 0; i < 200; i++) {
+                const particleGeometry = new THREE.SphereGeometry(Math.random() * 0.8 + 0.3, 8, 8);
+                const particleColor = particleColors[i % particleColors.length];
+                const particleMaterial = new THREE.MeshPhongMaterial({ 
+                    color: particleColor,
+                    emissive: particleColor,
+                    emissiveIntensity: 0.7,
+                    transparent: true,
+                    opacity: 0.9
+                });
+                
+                const particle = new THREE.Mesh(particleGeometry, particleMaterial);
+                particle.position.set(
+                    (Math.random() - 0.5) * 500,
+                    (Math.random() - 0.5) * 400,
+                    (Math.random() - 0.5) * 400
+                );
+                
+                // Add particle trail effect
+                const trailGeometry = new THREE.SphereGeometry(0.2, 6, 6);
+                const trailMaterial = new THREE.MeshBasicMaterial({
+                    color: particleColor,
+                    transparent: true,
+                    opacity: 0.4
+                });
+                const trail = new THREE.Mesh(trailGeometry, trailMaterial);
+                trail.position.copy(particle.position);
+                scene.add(trail);
+                
+                scene.add(particle);
+                particles.push(particle);
+                
+                particle.userData = {
+                    velocity: new THREE.Vector3(
+                        (Math.random() - 0.5) * 0.8,
+                        (Math.random() - 0.5) * 0.8,
+                        (Math.random() - 0.5) * 0.5
+                    ),
+                    pulseSpeed: Math.random() * 0.06 + 0.04,
+                    originalColor: particleColor,
+                    trail: trail,
+                    trailPositions: []
+                };
+            }
+        }
+        
+        function createNetworkConnections() {
+            // Create connecting lines between elements
+            for (let i = 0; i < 25; i++) {
+                const points = [];
+                const startPoint = new THREE.Vector3(
+                    (Math.random() - 0.5) * 300,
+                    (Math.random() - 0.5) * 200,
+                    (Math.random() - 0.5) * 200
+                );
+                const endPoint = new THREE.Vector3(
+                    (Math.random() - 0.5) * 300,
+                    (Math.random() - 0.5) * 200,
+                    (Math.random() - 0.5) * 200
+                );
+                
+                // Create curved connection
+                const midPoint = startPoint.clone().lerp(endPoint, 0.5);
+                midPoint.y += (Math.random() - 0.5) * 50;
+                
+                points.push(startPoint, midPoint, endPoint);
+                
+                const curve = new THREE.CatmullRomCurve3(points);
+                const tubeGeometry = new THREE.TubeGeometry(curve, 30, 0.3, 8, false);
+                const tubeMaterial = new THREE.MeshBasicMaterial({
+                    color: 0x4a90e2,
+                    transparent: true,
+                    opacity: 0.3
+                });
+                
+                const tube = new THREE.Mesh(tubeGeometry, tubeMaterial);
+                scene.add(tube);
+                
+                tube.userData = {
+                    pulseSpeed: Math.random() * 0.02 + 0.01
+                };
+            }
+        }
+        
+        function setupFlyingCameraPath() {
+            // Epic flying camera path through digital space - continuous loop
+            cameraPath = [
+                { position: [0, 0, 200], lookAt: [0, 0, 0], duration: 0.6 },
+                { position: [-120, 60, 140], lookAt: [-150, 80, -100], duration: 0.7 },
+                { position: [90, -50, 110], lookAt: [120, -70, -120], duration: 0.7 },
+                { position: [-70, -80, 90], lookAt: [-100, -90, -80], duration: 0.7 },
+                { position: [130, 50, 70], lookAt: [140, 60, -140], duration: 0.7 },
+                { position: [-100, 40, 50], lookAt: [-130, 40, -60], duration: 0.7 },
+                { position: [80, -70, 30], lookAt: [110, -80, -160], duration: 0.7 },
+                { position: [-130, -20, 10], lookAt: [-160, -40, -90], duration: 0.7 },
+                { position: [110, 80, -10], lookAt: [130, 90, -110], duration: 0.7 },
+                { position: [-90, 90, -30], lookAt: [-110, 100, -70], duration: 0.7 },
+                { position: [70, -90, -50], lookAt: [100, -100, -100], duration: 0.7 },
+                { position: [-50, 110, -70], lookAt: [-80, 60, -180], duration: 0.7 },
+                { position: [150, 20, -90], lookAt: [160, 30, -80], duration: 0.7 },
+                { position: [-60, -120, -110], lookAt: [-70, -110, -130], duration: 0.7 },
+                { position: [40, 130, -130], lookAt: [80, 110, -120], duration: 0.7 },
+                { position: [0, 0, 180], lookAt: [0, 0, 0], duration: 0.8 }
+            ];
+        }
+        
+        function animate() {
+            animationId = requestAnimationFrame(animate);
+            
+            const currentTime = Date.now();
+            const elapsed = (currentTime - introStartTime) / 1000; // Convert to seconds
+            
+            // Update flying camera
+            updateFlyingCamera(elapsed);
+            
+            // Animate all objects
+            animateObjects(elapsed);
+            
+            // Handle loading sequence
+            handleLoadingSequence(elapsed);
+            
+            renderer.render(scene, camera);
+        }
+        
+        function updateFlyingCamera(elapsed) {
+            const totalDuration = cameraPath.reduce((sum, point) => sum + point.duration, 0);
+            
+            // Loop the camera animation continuously
+            const loopedTime = elapsed % totalDuration;
+            let currentTime = 0;
+            let currentSegment = 0;
+            
+            // Find current segment
+            for (let i = 0; i < cameraPath.length - 1; i++) {
+                if (loopedTime >= currentTime && loopedTime < currentTime + cameraPath[i].duration) {
+                    currentSegment = i;
+                    break;
+                }
+                currentTime += cameraPath[i].duration;
+            }
+            
+            if (currentSegment < cameraPath.length - 1) {
+                const current = cameraPath[currentSegment];
+                const next = cameraPath[currentSegment + 1];
+                const segmentProgress = (loopedTime - currentTime) / current.duration;
+                
+                // Smooth interpolation with easing
+                const t = easeInOutCubic(segmentProgress);
+                
+                // Interpolate camera position
+                camera.position.lerpVectors(
+                    new THREE.Vector3(...current.position),
+                    new THREE.Vector3(...next.position),
+                    t
+                );
+                
+                // Interpolate look-at target
+                const lookAtCurrent = new THREE.Vector3(...current.lookAt);
+                const lookAtNext = new THREE.Vector3(...next.lookAt);
+                const lookAtTarget = lookAtCurrent.lerp(lookAtNext, t);
+                
+                camera.lookAt(lookAtTarget);
+            }
+        }
+        
+        function easeInOutCubic(t) {
+            return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+        }
+        
+        function animateObjects(elapsed) {
+            const time = elapsed;
+            
+            // Animate websites
+            websites.forEach((website, index) => {
+                if (website.userData) {
+                    const { originalPos, floatSpeed, rotationSpeed, phase, amplitude } = website.userData;
+                    
+                    // Enhanced floating animation
+                    website.position.x = originalPos.x + Math.sin(time * floatSpeed + phase) * amplitude;
+                    website.position.y = originalPos.y + Math.cos(time * floatSpeed + phase) * (amplitude * 0.8);
+                    website.position.z = originalPos.z + Math.sin(time * floatSpeed * 0.7 + phase) * (amplitude * 0.5);
+                    
+                    // Rotation animation
+                    website.rotation.y += rotationSpeed;
+                    website.rotation.x += rotationSpeed * 0.7;
+                    website.rotation.z += rotationSpeed * 0.4;
+                    
+                    // Sync glow effects
+                    if (website.userData.glow) {
+                        website.userData.glow.position.copy(website.position);
+                        website.userData.glow.rotation.copy(website.rotation);
+                        
+                        const glowPulse = 0.3 + Math.sin(time * 2 + phase) * 0.2;
+                        website.userData.glow.material.opacity = glowPulse;
+                    }
+                    
+                    if (website.userData.halo) {
+                        website.userData.halo.position.copy(website.position);
+                        website.userData.halo.rotation.copy(website.rotation);
+                        
+                        const haloPulse = 0.15 + Math.sin(time * 1.5 + phase) * 0.1;
+                        website.userData.halo.material.opacity = haloPulse;
+                    }
+                }
+            });
+            
+            // Animate metrics bars
+            metrics.forEach(bar => {
+                if (bar.userData) {
+                    const { pulseSpeed, originalHeight, rotationSpeed } = bar.userData;
+                    
+                    // Pulsing animation
+                    const pulse = 1 + Math.sin(time * pulseSpeed) * 0.3;
+                    bar.scale.y = pulse;
+                    
+                    // Rotation
+                    bar.rotation.y += rotationSpeed;
+                    
+                    // Sync glow
+                    if (bar.userData.glow) {
+                        bar.userData.glow.scale.y = pulse;
+                        const glowOpacity = 0.2 + Math.sin(time * pulseSpeed) * 0.1;
+                        bar.userData.glow.material.opacity = glowOpacity;
+                    }
+                }
+            });
+            
+            // Animate particles with enhanced trail effects
+            particles.forEach(particle => {
+                if (particle.userData) {
+                    const { velocity, pulseSpeed, trail } = particle.userData;
+                    
+                    // Store previous position for trail
+                    const prevPos = particle.position.clone();
+                    
+                    // Movement
+                    particle.position.add(velocity);
+                    
+                    // Update trail position with delay
+                    if (trail) {
+                        trail.position.lerp(prevPos, 0.3);
+                        trail.material.opacity = 0.3 + Math.sin(time * pulseSpeed) * 0.2;
+                    }
+                    
+                    // Enhanced pulsing scale
+                    const scale = 1 + Math.sin(time * pulseSpeed) * 0.6;
+                    particle.scale.setScalar(scale);
+                    
+                    // Enhanced boundary wrapping with smooth transitions
+                    if (Math.abs(particle.position.x) > 250) {
+                        particle.userData.velocity.x *= -0.9;
+                        particle.position.x = Math.sign(particle.position.x) * 240;
+                    }
+                    if (Math.abs(particle.position.y) > 200) {
+                        particle.userData.velocity.y *= -0.9;
+                        particle.position.y = Math.sign(particle.position.y) * 190;
+                    }
+                    if (Math.abs(particle.position.z) > 200) {
+                        particle.userData.velocity.z *= -0.9;
+                        particle.position.z = Math.sign(particle.position.z) * 190;
+                    }
+                    
+                    // Add some randomness to movement
+                    particle.userData.velocity.add(new THREE.Vector3(
+                        (Math.random() - 0.5) * 0.02,
+                        (Math.random() - 0.5) * 0.02,
+                        (Math.random() - 0.5) * 0.01
+                    ));
+                    
+                    // Limit velocity
+                    particle.userData.velocity.clampLength(0, 1.2);
+                }
+            });
+            
+            // Animate data elements
+            dataElements.forEach(element => {
+                if (element.userData) {
+                    const { rotationSpeed, floatSpeed } = element.userData;
+                    
+                    element.rotation.x += rotationSpeed.x;
+                    element.rotation.y += rotationSpeed.y;
+                    element.rotation.z += rotationSpeed.z;
+                    
+                    // Floating motion
+                    element.position.y += Math.sin(time * floatSpeed) * 0.1;
+                }
+            });
+        }
+        
+        function handleLoadingSequence(elapsed) {
+            // Start loading sequence after 6 seconds
+            if (elapsed >= 6 && !loadingStarted) {
+                loadingStarted = true;
+                playLoadingSound();
+                
+                // Start loading bar animation
+                const loadingBar = document.getElementById('loadingBar');
+                const loadingPercentage = document.getElementById('loadingPercentage');
+                
+                const loadingInterval = setInterval(() => {
+                    currentPercentage += Math.random() * 12 + 8;
+                    if (currentPercentage >= 100) {
+                        currentPercentage = 100;
+                        clearInterval(loadingInterval);
+                        
+                        // Show get started button
+                        setTimeout(() => {
+                            playPopSound();
+                            const btn = document.getElementById('getStartedBtn');
+                            btn.classList.add('show');
+                        }, 800);
+                    }
+                    
+                    loadingPercentage.textContent = Math.floor(currentPercentage) + '%';
+                }, 150);
+            }
+        }
+        
+        function startMainWebsite() {
+            playTapSound();
+            
+            // Fade out intro
+            const intro = document.getElementById('cinematicIntro');
+            intro.style.transition = 'opacity 1.5s ease-out';
+            intro.style.opacity = '0';
+            
+            setTimeout(() => {
+                intro.style.display = 'none';
+                
+                // Show main content
+                const mainContent = document.querySelector('.main-content');
+                mainContent.classList.add('show');
+                
+                // Clean up Three.js
+                if (animationId) {
+                    cancelAnimationFrame(animationId);
+                }
+                if (renderer) {
+                    renderer.dispose();
+                }
+                if (scene) {
+                    scene.clear();
+                }
+            }, 1500);
+        }
+        
+        // Initialize everything
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize 3D cinematic intro
+            initCinematicIntro();
+            
+            // Add event listener to get started button
+            document.getElementById('getStartedBtn').addEventListener('click', startMainWebsite);
+            
+            // Handle window resize
+            window.addEventListener('resize', () => {
+                if (camera && renderer) {
+                    camera.aspect = window.innerWidth / window.innerHeight;
+                    camera.updateProjectionMatrix();
+                    renderer.setSize(window.innerWidth, window.innerHeight);
+                }
+            });
+            
+            // Initialize hero section observer for counter animation
+            const heroSection = document.querySelector('.hero-gradient');
+            if (heroSection) {
+                heroObserver.observe(heroSection);
+            }
+            
+            // Check iframe loading and show fallback if needed
+            setTimeout(() => {
+                const iframe = document.querySelector('.spreadsheet-container iframe');
+                const fallback = document.getElementById('sheet-fallback');
+                
+                if (iframe && fallback) {
+                    iframe.addEventListener('error', () => {
+                        iframe.style.display = 'none';
+                        fallback.classList.remove('hidden');
+                    });
+                    
+                    // Check if iframe content is blocked after 5 seconds
+                    setTimeout(() => {
+                        try {
+                            // Try to access iframe content
+                            const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                            if (!iframeDoc || iframeDoc.body.innerHTML.includes('blocked') || iframeDoc.body.innerHTML.includes('Contact the site owner')) {
+                                iframe.style.display = 'none';
+                                fallback.classList.remove('hidden');
+                            }
+                        } catch (e) {
+                            // If we can't access iframe content due to CORS, assume it's working
+                            console.log('Iframe content access restricted (normal for cross-origin)');
+                        }
+                    }, 5000);
+                }
+            }, 1000);
+        });
+    </script>
+
+    <!-- Google Analytics (replace with your tracking ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_TRACKING_ID');
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9693b3d3a357e8c7',t:'MTc1NDIwMTk1Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
